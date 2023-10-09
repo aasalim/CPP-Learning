@@ -1,0 +1,9 @@
+# cmkae
+build/
+
+# vscode
+.vscode/**/*
+!.vscode/extensions.json
+
+# npm
+node_modules/
