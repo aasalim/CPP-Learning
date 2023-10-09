@@ -1,0 +1,31 @@
+{
+  "name": "projecttemplate",
+  "version": "0.0.0",
+  "description": "project description",
+  "scripts": {
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cz-commitlint": "^17.7.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "inquirer": "^8.2.6",
+    "semantic-release": "^22.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aasalim/CPP-Project-Template.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

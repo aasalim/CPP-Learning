@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "pkief.material-icon-theme",
+        "aaron-bond.better-comments",
+        "streetsidesoftware.code-spell-checker",
+        "xaver.clang-format",
+        "cschlosser.doxdocgen",
+        "tabnine.tabnine-vscode",
+        "patbenatar.advanced-new-file",
+        "matepek.vscode-catch2-test-adapter",
+        "formulahendry.code-runner",
+        "ms-vscode.cpptools-extension-pack",
+        "mhutchie.git-graph"
+    ]
+}
