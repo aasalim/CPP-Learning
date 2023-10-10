@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 # Project Name 
-project(ProjectName C)
+project(CPPLearning C)
 
 # Language Standard
 set(CMAKE_C_STANDARD 99)
@@ -20,3 +20,4 @@ add_executable(${PROJECT_NAME} src/main.c)
 enable_testing()
 # Add the tests folder
 add_subdirectory(tests)
+add_subdirectory(examples/FactoryDesignPattern)
