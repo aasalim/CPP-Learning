@@ -20,5 +20,6 @@ add_executable(${PROJECT_NAME} src/main.c)
 enable_testing()
 # Add the tests folder
 add_subdirectory(tests)
+add_subdirectory(examples/StateDesignPattern)
 add_subdirectory(examples/StrategyDesignPattern)
 add_subdirectory(examples/FactoryDesignPattern)
